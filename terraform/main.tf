@@ -3,10 +3,10 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "bbbbbbbbtalaysia@gmail.com"
-    AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
+    AccountName               = "playground-aft"
+    ManagedOrganizationalUnit = "New AFT"
     SSOUserEmail              = "bbtalaysia@gmail.com"
-    SSOUserFirstName          = "Sandbox"
+    SSOUserFirstName          = "Playground"
     SSOUserLastName           = "AFT"
   }
 
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "playground"
 }
